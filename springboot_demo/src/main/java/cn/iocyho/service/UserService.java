@@ -15,4 +15,6 @@ public interface UserService {
     List<User> findAll();
 
     User findById(String id);
+
+    void update(User user);
 }
