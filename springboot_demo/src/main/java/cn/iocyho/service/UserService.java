@@ -1,5 +1,9 @@
 package cn.iocyho.service;
 
+import cn.iocyho.domain.User;
+
+import java.util.List;
+
 /**
  * @Program practices
  * @Description TODO
@@ -8,5 +12,5 @@ package cn.iocyho.service;
  * @Version V1.0
  **/
 public interface UserService {
-
+    List<User> findAll();
 }
