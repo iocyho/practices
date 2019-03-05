@@ -7,6 +7,6 @@ package cn.iocyho.service;
  * @Date 2019/3/5 21:42
  * @Version V1.0
  **/
-public class UserService {
+public interface UserService {
 
 }
